@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Data
 {
-    class Produto
+    class Produto : BaseModel
     {
+        public decimal Valor { get; set; }
     }
 }

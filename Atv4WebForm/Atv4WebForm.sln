@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atv4WebForm", "Atv4WebForm\Atv4WebForm.csproj", "{7DA8A0EB-3DE7-41F6-AD1C-ED0234D7E8FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{C10A2A95-1397-470D-A6EE-69FD743CE21F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7DA8A0EB-3DE7-41F6-AD1C-ED0234D7E8FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DA8A0EB-3DE7-41F6-AD1C-ED0234D7E8FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DA8A0EB-3DE7-41F6-AD1C-ED0234D7E8FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C10A2A95-1397-470D-A6EE-69FD743CE21F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C10A2A95-1397-470D-A6EE-69FD743CE21F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C10A2A95-1397-470D-A6EE-69FD743CE21F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C10A2A95-1397-470D-A6EE-69FD743CE21F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

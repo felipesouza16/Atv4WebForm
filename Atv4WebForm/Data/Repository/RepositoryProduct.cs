@@ -8,5 +8,20 @@ namespace Data.Repository
 {
     class RepositoryProduct
     {
+        public List<Produto> produtos { get; set; }
+        public RepositoryProduct()
+        {
+            produtos = new List<Produto>();
+        }
+
+        public void Cadastro(Produto produto)
+        {
+            produtos.Add(produto);
+        }
+
+        public List<Produto> ReadAll()
+        {
+            return produtos;
+        }
     }
 }
